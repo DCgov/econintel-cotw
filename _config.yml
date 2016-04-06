@@ -10,7 +10,7 @@ collections:
     permalink: /:path/
 
 # Title
-name: Ward Economic Indicators and Investments Tool
+name: DMPED Economic Intelligence Dashboard
 subtitle: 'Deputy Mayor for Planning & Economic Development | Muriel Bowser, Mayor'
 
 # Author/Organization info to be displayed in the templates
@@ -22,7 +22,7 @@ author:
 # For user/organization pages set this to an empty string
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
-baseurl: '/econintel-wardtool'
+baseurl: '/econintel-cotw'
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: '/assets/img/we-are-wdc.png'
@@ -31,43 +31,19 @@ logoalt: We Are Washington DC
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Map
+- text: Chart of the Week
   internal: true
   url: ./
-- text: Data
+- text: March 2016
   internal: true
-  url: data.html
-- text: Ward 1
-  internal: true
-  url: ward-1.html
-- text: Ward 2
-  internal: true
-  url: ward-2.html
-- text: Ward 3
-  internal: true
-  url: ward-3.html
-- text: Ward 4
-  internal: true
-  url: ward-4.html
-- text: Ward 5
-  internal: true
-  url: ward-5.html
-- text: Ward 6
-  internal: true
-  url: ward-6.html
-- text: Ward 7
-  internal: true
-  url: ward-7.html
-- text: Ward 8
-  internal: true
-  url: ward-8.html  
+  url: 03-2016.html
 
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: econintel-wardtool
+- name: econintel-cotw
   description:
-  url: https://github.com/DCgov/econintel-wardtool
+  url: https://github.com/DCgov/econintel-cotw
 
 # google_analytics_ua: TBA
 
