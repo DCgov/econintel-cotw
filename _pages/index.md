@@ -10,26 +10,28 @@ Office of the Deputy Mayor for Planning & Economic Development (DMPED) <br/> Cha
 
 <hr style="width: 475px; margin:1em 0">
 
-<h4>April 21, 2016</h4>
-<h3>Area Median Income and Affordable Housing</h3>
+<h4>May 13, 2016</h4>
+<h3>DMPED is innovating the community input process with OurRFP data</h3>
 
-The calculations of rent ceilings for affordable housing are based on the Average Median Income (AMI), a figure calculated by the U.S. Department of Housing and Urban Development. AMI varies by metro area, and it is updated every year. In 2016, the AMI for DC decreased, making the household income ceiling for qualifying for affordable housing slightly lower. 
+For the first time, DMPED has turned community feedback gathered through the OurRFP process into actionable data. We performed a text analysis on the words mentioned most at the OurRFP community meetings for Crummell School in Ivy City. The result is a clear picture of what the community values in this future development of this historic site. Our key findings were reported in the Crummell School Request for Proposals (RFP) earlier this month, and developers will to take into account resident priorities when assembling their proposals for redeveloping Crummell. 
 
-When DMPED redevelops a DC-owned property for residential use, the law requires that at least some of those units must be affordable. DMPED frequently negotiates more affordable units than the statutory requirement. Most developments require at least 30% of the new units to be affordable, depending on the size of the development and its proximity to public transit.
+DMPED held the first public workshop on July 29, 2015. We had four themed conversations about the future of Crummell school, and judging by the number of responses, DC residents were most engaged on the ‘Envisioning Crummell School’ conversation. After the first meeting, we turned the meeting notes into text data and analyzed it for broad themes. Key community priorities that emerged from the data included: historic preservation, education and workforce development uses, and recreational uses for youth and seniors. 
 
-For rental developments:
-<ul>
-	<li><b>A quarter of the affordable units</b> must be made such that <b>very low-income households</b> pay no more than 30% of their total household income for rent;</li>
-	<li><b>Three quarters of the affordable units</b> must be made such that <b>low-income households</b> pay no more than 30% of their total household income for rent.</li>
-</ul>
+In a follow-up meeting on September 19, 2015, DMPED reconnected with the community on their feedback. Attendees voted for their development priorities, and the results of those votes are shown below.
 
-For for-sale developments:  
-<ul>
-	<li><b>Half of the affordable units</b> must be made that <b>low-income households</b> will pay no more than 30% of their total household income for housing costs;</li>
-	<li><b>Half of the affordable units</b> must be made that <b>moderate-income households</b> (those making at most 80% of AMI – $86,880 for a family of four) will pay no more than 30% of their total household income for housing costs. </li>
-</ul>
+View the RFP <a href="http://dmped.dc.gov/page/OURRFP_CrummellSchool" target="_blank">here</a>.
 
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 454px; height: 769px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HU&#47;HUDIncomeLimits&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='454' height='769' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='HUDIncomeLimits&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HU&#47;HUDIncomeLimits&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
-
+<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 554px; height: 469px;'><noscript><a href='#'><img alt='Word Cloud Dash ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellWordCloud&#47;WordCloudDash&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='554' height='469' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CrummellWordCloud&#47;WordCloudDash' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellWordCloud&#47;WordCloudDash&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+<br>
+<noscript><a href='#'><img alt='Bar Chart Dash - Topics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellResponsesbyConversation&#47;BarChartDash-Topics&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='554' height='669' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CrummellResponsesbyConversation&#47;BarChartDash-Topics' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellResponsesbyConversation&#47;BarChartDash-Topics&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object>
+<br>
+<noscript><a href='#'><img alt='Bar Chart Dash - Responses ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellResponsesbyTheme&#47;BarChartDash-Responses&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='554' height='769' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CrummellResponsesbyTheme&#47;BarChartDash-Responses' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellResponsesbyTheme&#47;BarChartDash-Responses&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object>
+*
+<br>
+<noscript><a href='#'><img alt='Follow up Votes ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellFollow-upVotes&#47;FollowupVotes&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='554' height='719' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CrummellFollow-upVotes&#47;FollowupVotes' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrummellFollow-upVotes&#47;FollowupVotes&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object>
+<h5> 
+	* 1 dot with the corresponding color was placed on the blank space of each board to show attendees which colored dot should be placed on that board and should not be counted as a vote. <br>
+	** 1 invalid green dot was placed here from the development use board.
+</h5>
 
 
