@@ -19,3 +19,55 @@ Read more from the <a href="https://www.washingtonpost.com/lifestyle/food/dcs-fo
 
 <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 454px; height: 1569px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CT&#47;CTOW-Michelin&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='454' height='1569' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CTOW-Michelin&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CT&#47;CTOW-Michelin&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
 
+<hr style="width: 475px; margin:1em 0">
+
+<div id="form" class="contact-us-form">
+    <div class="title">
+        <strong>Subscribe for updates</strong>
+    </div>
+    <form id="callus" target="_self" onsubmit="" action="javascript: postContactToGoogle()" style="border:none">
+        <fieldset style="border:none">
+            <label for="email">Enter your email: </label>
+            <input id="email" type="text" name="email">
+        </fieldset>
+        <div style="width: 100%; display: block; float: right;">
+            <button id="send" type="submit">
+                Submit
+            </button>
+        </div>
+        <div style="width: 100%; display: block; float: right; padding-top: 15px;">
+            <div class="requestSubmited" style="display:none; text-align: center;">Your request has been sent!</div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+    function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+    function postContactToGoogle(){
+        var email = $('#email').val();
+        if ((email !== "") && (validateEmail(email))) {
+            $.ajax({
+                url: "https://docs.google.com/forms/d/1h1lm2nfAKNS34RAxyV3nh83Oa7how4xFSdjv-JnId_8/formResponse",
+                data: {"entry.96158278" : email},
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function (){
+                        $('#email').val("");
+                        window.location.replace("thankyou.html")
+                    },
+                    200: function (){
+                        $('#email').val("");
+                        window.location.replace("thankyou.html")
+                    }
+                }
+            });
+        }
+        else {
+            //Error message
+        }
+    }
+</script>
