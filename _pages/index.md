@@ -21,53 +21,43 @@ Read more from the <a href="https://www.washingtonpost.com/lifestyle/food/dcs-fo
 
 <hr style="width: 475px; margin:1em 0">
 
-<div id="form" class="contact-us-form">
-    <div class="title">
-        <strong>Subscribe for updates</strong>
-    </div>
-    <form id="callus" target="_self" onsubmit="" action="javascript: postContactToGoogle()" style="border:none">
-        <fieldset style="border:none">
-            <label for="email">Enter your email: </label>
-            <input id="email" type="text" name="email">
-        </fieldset>
-        <div style="width: 100%; display: block; float: right;">
-            <button id="send" type="submit">
-                Submit
-            </button>
-        </div>
-        <div style="width: 100%; display: block; float: right; padding-top: 15px;">
-            <div class="requestSubmited" style="display:none; text-align: center;">Your request has been sent!</div>
-        </div>
-    </form>
+<!--Begin CTCT Sign-Up Form-->
+<!-- EFD 1.0.0 [Mon Jun 06 12:44:43 EDT 2016] -->
+<link rel='stylesheet' type='text/css' href='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/css/signup-form.css'>
+<div class="ctct-embed-signup" style="font: 16px Helvetica Neue, Arial, sans-serif; font: 1rem Helvetica Neue, Arial, sans-serif; line-height: 1.5; -webkit-font-smoothing: antialiased; width: 454px">
+   <div style="color:#5b5b5b; background-color:#FFFFFF; border-radius:5px;">
+       <span id="success_message" style="display:none;">
+           <div style="text-align:center;">Thanks for signing up!</div>
+       </span>
+       <form data-id="embedded_signup:form" class="ctct-custom-form Form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup">
+           <h2 style="margin:0;">Subscribe for updates</h2>
+           <!-- The following code must be included to ensure your sign-up form works properly. -->
+           <input data-id="ca:input" type="hidden" name="ca" value="a2e7dff1-cff4-49c5-b33c-d32a5beeb267">
+           <input data-id="list:input" type="hidden" name="list" value="1357647672">
+           <input data-id="source:input" type="hidden" name="source" value="EFD">
+           <input data-id="required:input" type="hidden" name="required" value="list,email">
+           <input data-id="url:input" type="hidden" name="url" value="">
+           <p data-id="Email Address:p" ><label data-id="Email Address:label" data-name="email" class="ctct-form-required">Email Address</label> <input data-id="Email Address:input" type="text" name="email" value="" maxlength="80"></p>
+           <button type="submit" class="Button ctct-button Button--block Button-secondary" data-enabled="enabled">Sign Up</button>
+       </form>
+   </div>
 </div>
-
-<script type="text/javascript">
-    function validateEmail(email) {
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(email);
-    }
-    function postContactToGoogle(){
-        var email = $('#email').val();
-        if ((email !== "") && (validateEmail(email))) {
-            $.ajax({
-                url: "https://docs.google.com/forms/d/1h1lm2nfAKNS34RAxyV3nh83Oa7how4xFSdjv-JnId_8/formResponse",
-                data: {"entry.96158278" : email},
-                type: "POST",
-                dataType: "xml",
-                statusCode: {
-                    0: function (){
-                        $('#email').val("");
-                        window.location.replace("thankyou.html")
-                    },
-                    200: function (){
-                        $('#email').val("");
-                        window.location.replace("thankyou.html")
-                    }
-                }
-            });
-        }
-        else {
-            //Error message
-        }
-    }
+<script type='text/javascript'>
+   var localizedErrMap = {};
+   localizedErrMap['required'] =        'This field is required.';
+   localizedErrMap['ca'] =          'An unexpected error occurred while attempting to send email.';
+   localizedErrMap['email'] =           'Please enter your email address in name@email.com format.';
+   localizedErrMap['birthday'] =        'Please enter birthday in MM/DD format.';
+   localizedErrMap['anniversary'] =     'Please enter anniversary in MM/DD/YYYY format.';
+   localizedErrMap['custom_date'] =     'Please enter this date in MM/DD/YYYY format.';
+   localizedErrMap['list'] =            'Please select at least one email list.';
+   localizedErrMap['generic'] =         'This field is invalid.';
+   localizedErrMap['shared'] =      'Sorry, we could not complete your sign-up. Please contact us to resolve this.';
+   localizedErrMap['state_mismatch'] = 'Mismatched State/Province and Country.';
+    localizedErrMap['state_province'] = 'Select a state/province';
+   localizedErrMap['selectcountry'] =   'Select a country';
+   var postURL = 'https://visitor2.constantcontact.com/api/signup';
 </script>
+<script type='text/javascript' src='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/js/signup-form.js'></script>
+<!--End CTCT Sign-Up Form-->
+
