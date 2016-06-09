@@ -11,7 +11,7 @@ Office of the Deputy Mayor for Planning & Economic Development (DMPED) <br/> Cha
 <hr style="width: 475px; margin:1em 0">
 
 <h4>June 9, 2016</h4>
-<h3>What did DC graduates study?</h3>
+<h3>Thought DC residents were a bunch of humanities majors? Turns out DC is STEM-heavy (no, really!)</h3>
 
 We often hear that the DC area is among the best-educated in the country, with a high concentration of college-educated residents and graduate degree-ho lders. According to a recent data-rich report from DC-based incubator and seed fund 1776 called <a href="http://www.1776.vc/reports/innovation-that-matters-2016/" target="_blank">Innovation that Matters</a>*, among major US cities, the DC region also has the highest proportion of more <i>recent</i> graduates. It was the only region in the study where over 8% of the population were aged 25-34 and had a college degree. 
 
