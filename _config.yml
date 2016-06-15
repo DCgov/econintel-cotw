@@ -34,6 +34,9 @@ navigation:
 - text: Chart of the Week
   internal: true
   url: ./
+- text: June 2016
+  internal: true
+  url: 06-2016.html
 - text: May 2016
   internal: true
   url: 05-2016.html
