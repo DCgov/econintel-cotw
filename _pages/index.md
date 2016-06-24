@@ -10,18 +10,20 @@ Office of the Deputy Mayor for Planning & Economic Development (DMPED) <br/> Cha
 
 <hr style="width: 475px; margin:1em 0">
 
-<h4>June 23, 2016</h4>
-<h3>Unemployment by Ward</h3>
+<h4>June 24, 2016</h4>
+<h3>Heat mapping the Great Streets small business grant program</h3>
 
-Since 2002, DC’s Department of Employment Services (DOES) Labor Market Research and Information division has been tracking the unemployment rate by Ward. This metric refers to the rate of unemployment within the labor force residing in each Ward. The District-wide unemployment rate helps us track the health of the District’s labor force overall, but it obscures the reality of geographic differences within DC’s labor force.
+In 2012, the inaugural Great Streets Corridor was developed in Ward 6 on H Street NE, benefiting 16 small businesses. Since then, corridors have expanded to 13 locations, funding over 200 businesses in all eight Wards. 
+ 
+Although funding for the Great Streets initiative has not increased significantly in three years, more small businesses were awarded grant money in the 2016 fiscal year than FY14 and FY15 combined. In 2016, the cap on individual grants decreased from $85k to $50k which extended opportunities to a higher number of local businesses.
+ 
+Great Streets is the District’s commercial revitalization initiative to transform emerging corridors into thriving and inviting neighborhood centers. Funding is to support existing small businesses, attract new businesses, increase the District's tax base, and create new job opportunities for District residents. 
 
-In May, Ward 8 showed the lowest unemployment reading since the metric has been tracked. The previous record low for Ward 8 was in April 2008. Historically, Wards 5, 7, and 8 have experienced resident unemployment at rates above the District-wide average. Wards 1, 2, 3, and more recently, 6, have experienced below-average unemployment. Ward 4 has typically tracked closely with the District-wide rate. 
+<iframe src="http://dcgis.maps.arcgis.com/apps/webappviewer/index.html?id=e33cc579a5344b15b18653b690de26bd" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px"></iframe>
 
-The chart below shows non-seasonally adjusted monthly unemployment readings. Seasonal employment patterns account for some of the month-to-month volatility. Other large month-to-month jumps seen below are attributable to one-time changes in estimation methodology and Ward boundary changes.
+For more information, visit the Great Streets website <a href="http://greatstreets.dc.gov/" target="_blank">here</a>.
 
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 454px; height: 369px;'><noscript><a href='#'><img alt='Unemployment All Wards ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;UnemploymentAllWards&#47;UnemploymentAllWards&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='454' height='369' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='UnemploymentAllWards&#47;UnemploymentAllWards' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;UnemploymentAllWards&#47;UnemploymentAllWards&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
 
-Unemployment data by Ward is available from DOES <a href="http://does.dc.gov/page/unemployment-data-dc-wards#overlay-context=page/labor-statistics" target="_blank">here</a>.
 
 <!--Begin CTCT Sign-Up Form-->
 <!-- EFD 1.0.0 [Mon Jun 06 12:44:43 EDT 2016] -->
