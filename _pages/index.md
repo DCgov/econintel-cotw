@@ -10,20 +10,20 @@ Office of the Deputy Mayor for Planning & Economic Development (DMPED) <br/> Cha
 
 <hr style="width: 475px; margin:1em 0">
 
-<h4>June 24, 2016</h4>
-<h3>Heat mapping the Great Streets small business grant program</h3>
+<h4>June 29, 2016</h4>
+<h3>Guest post: Another Brick in the Ward</h3>
 
-In 2012, the inaugural Great Streets Corridor was developed in Ward 6 on H Street NE, benefiting 16 small businesses. Since then, corridors have expanded to 13 locations, funding over 200 businesses in all eight Wards. 
- 
-Although funding for the Great Streets initiative has not increased significantly in three years, more small businesses were awarded grant money in the 2016 fiscal year than FY14 and FY15 combined. In 2016, the cap on individual grants decreased from $85k to $50k which extended opportunities to a higher number of local businesses.
- 
-Great Streets is the District’s commercial revitalization initiative to transform emerging corridors into thriving and inviting neighborhood centers. Funding is to support existing small businesses, attract new businesses, increase the District's tax base, and create new job opportunities for District residents. 
+<i>Kate Rabinowitz, creator of <a href="http://www.datalensdc.com/" target="_blank">DataLensDC</a></i>
 
-<iframe src="http://dcgis.maps.arcgis.com/apps/webappviewer/index.html?id=e33cc579a5344b15b18653b690de26bd" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px"></iframe>
+DC is a city with a diversity of people, businesses, and neighborhoods. But walking along the city’s residential streets you may notice one aspect of the city that isn’t particularly diverse at all - facades of DC homes. DC is home to almost exclusively brick homes. 
 
-For more information, visit the Great Streets website <a href="http://greatstreets.dc.gov/" target="_blank">here</a>.
+The map below shows each residential properties in the District by facade. More than three-quarters of home facades in DC are brick. While brick homes are prevalent across the District, they are most common in the District’s oldest neighborhoods. Brick would’ve been the most common building material at the time and, in some areas, historic preservation limits the building materials that can be used today. In Ward 1 over 90% of homes are brick. Houses become more diverse further from the core of the city, where homes are likely to be newer. Wards 3 and 8, located at opposite ends of the District, have the most diversity of home facades. 
 
+Data are available through DC’s <a href="http://opendata.dc.gov/" target="_blank">open data website</a>. You can find complete code for on my <a href="https://github.com/katerabinowitz" target="_blank">github page</a>. 
 
+<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 624px; height: 689px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;houses&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='624' height='689' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='houses&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;houses&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+
+<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 654px; height: 529px;'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;houses&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='654' height='529' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='houses&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;houses&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
 
 <!--Begin CTCT Sign-Up Form-->
 <!-- EFD 1.0.0 [Mon Jun 06 12:44:43 EDT 2016] -->
