@@ -31,7 +31,7 @@ We’ve updated the DC metrics using the same methodology and 2015 OES survey da
 
 A major component of the Creative Class theory is that such individuals drive growth in places that celebrate diversity and inclusion, even more than places which simply offer jobs without much else. These workers also desire places with cultural institutions, unique neighborhoods, <a href="http://open.dc.gov/econintel-cotw/05-2016.html" target="_blank">dynamic restaurant scenes</a>, and an interesting nightlife. 
 
-What’s more, members of Creative Class occupational groups generally make more than others across all occupations. Here is a breakdown of those groups to show how annual and hourly median wages have changed for Creative Class occupational segments as compared to all occupations across Washington, DC between the years 2010 and 2015. 
+What’s more, members of Creative Class occupational groups generally make more than others across all occupations. The chart above shows a breakdown of those groups to show how annual and hourly median wages have changed for Creative Class occupational segments as compared to all occupations across Washington, DC between the years 2010 and 2015. 
 
 The BLS OES data can be found <a href="http://www.bls.gov/oes/tables.htm" target="_blank">here</a>. Find out more about the Creative Class theory <a href="https://en.wikipedia.org/wiki/Creative_class" target="_blank">here</a>. 
 
