@@ -10,30 +10,25 @@ Office of the Deputy Mayor for Planning & Economic Development (DMPED) <br/> Cha
 
 <hr style="width: 475px; margin:1em 0">
 
-<h4>August 10, 2016</h4>
-<h3>DC’s “Creative Class”: An Update</h3>
- 
-In Richard Florida’s The Rise of the Creative Class, first published in 2002, Florida promotes the idea that urban economic growth is closely linked to a city’s ability to support and grow the “Creative Class.”  This group is defined by occupations that require certain levels of creativity -- realized through the traditional artistic endeavors or through complex professional problem solving.  Essentially, Florida’s argument is that cities which provide desirable environments for creative professionals generally prosper while those that do not typically fall behind. His argument boils down to the fact that it isn’t access to raw materials or even large corporations that drive economic advantage. Rather, it is talented and creative people who spur growth and innovation at the local and regional level. 
+<h4>August 17, 2016</h4>
+<h3>Tracking the Flows of Businesses in the District</h3>
 
-In Washington, D.C., over 50% of jobs are in Creative Class fields. Florida breaks down the Creative Class into ten occupational groups derived from the U.S. Bureau of Labor Statistics’ (BLS) Occupational Employment Statistics (OES). 2010 OES data  indicated that 57.8% of Washington D.C.’s workforce was made up of Creative Class workers.  According to 2010 data, the Washington metro area had the third largest share of Creative Class individuals (46.8%), right behind the metro areas of San Jose, CA and Durham, NC, with shares of 46.9% and 48.4% respectively. The fact that the District's share of the metro area's Creative Class has remained constant since then reflects well on its ability to retain Creative Class workers.
+In the last few years, DC has seen sustained job growth and an increase in the rate of employment for District residents. Using the Bureau of Labor Statistics’ (BLS) Business Employment Dynamics Survey (BDM), we get a view into the lifecycle of businesses in DC. A related BLS data series, the Quarterly Census of Employment and Wages (QCEW), tracks almost 38,000 public and private business establishments in DC, as of 2015. While the QCEW data and other sources can be useful for measuring the stock, the BDM data measures the flow of businesses being created (or closing), moving into (or out of) DC, or the pace consolidation & acquisitions. The chart below shows this flow of business entrants and exits since 2010.
 
-We’ve updated the DC metrics using the same methodology and 2015 OES survey data (the most recent). Even as the number of jobs in DC has grown, and we’ve shifted to a less Federal government centric labor market, the share of Creative Class workers stayed relatively constant at 58.5%. It’s interesting to note that these occupation groups, shown in the second chart below, can also overlap with government employment – that is, some people in computer and mathematical occupations may be Federal employees.
+<div class='tableauPlaceholder' id='viz1471467570755' style='position: relative'><noscript><a href='#'><img alt='COTW Entrants and Exits ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWEntrantsExits&#47;COTWEntrantsandExits&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='COTWEntrantsExits&#47;COTWEntrantsandExits' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWEntrantsExits&#47;COTWEntrantsandExits&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>  
 
-<div class='tableauPlaceholder' id='viz1470854779585' style='position: relative'><noscript><a href='#'><img alt='Washington, D.C. Creative Class ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CreativeClass_0&#47;WashingtonD_C_CreativeClass&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CreativeClass_0&#47;WashingtonD_C_CreativeClass' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CreativeClass_0&#47;WashingtonD_C_CreativeClass&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                
 <script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1470854779585');                    
+  var divElement = document.getElementById('viz1471467570755');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='1019px';                    
+  vizElement.style.width='504px';vizElement.style.height='769px';                    
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>    
+</script> 
 
-A major component of the Creative Class theory is that such individuals drive growth in places that celebrate diversity and inclusion, even more than places which simply offer jobs without much else. These workers also desire places with cultural institutions, unique neighborhoods, <a href="http://open.dc.gov/econintel-cotw/05-2016.html" target="_blank">dynamic restaurant scenes</a>, and an interesting nightlife. 
+Between 2010 and 2015, DC has seen net growth in the number of businesses, an increase of 2,308 establishments, though the quarterly readings vary widely. During this period, the professional and business services sector, which accounts for 30% of DC’s private sector jobs, accounted for the greatest share of entrants. Business exits, as represented in the BLS data, include firm mergers, acquisitions, going-out-of-business, and moves out of DC. The professional and business service sector also accounts for the greatest share of overall exits, but overall netted over 600 new DC businesses between 2010 and 2015. Education and health services also netted positive business generation, while financial activities and “other” services industry groups saw fewer entrants than exits. 
 
-What’s more, members of Creative Class occupational groups generally make more than others across all occupations. The chart above shows a breakdown of those groups to show how annual and hourly median wages have changed for Creative Class occupational segments as compared to all occupations across Washington, DC between the years 2010 and 2015. 
-
-The BLS OES data can be found <a href="http://www.bls.gov/oes/tables.htm" target="_blank">here</a>. Find out more about the Creative Class theory <a href="https://en.wikipedia.org/wiki/Creative_class" target="_blank">here</a>. 
+BLS Business Employment Dynamics Data (BDM Data) is available <a href="http://www.bls.gov/bdm/" target="_blank">here</a>.
 
 <!--Begin CTCT Sign-Up Form-->
 <!-- EFD 1.0.0 [Mon Jun 06 12:44:43 EDT 2016] -->
