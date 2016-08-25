@@ -10,25 +10,29 @@ Office of the Deputy Mayor for Planning & Economic Development (DMPED) <br/> Cha
 
 <hr style="width: 475px; margin:1em 0">
 
-<h4>August 17, 2016</h4>
-<h3>Tracking the Flows of Businesses in the District</h3>
+<h4>August 25, 2016</h4>
+<h3>Interactive DC salary data</h3>
 
-In the last few years, DC has seen sustained job growth and an increase in the rate of employment for District residents. Using the Bureau of Labor Statistics’ (BLS) Business Employment Dynamics Survey (BDM), we get a view into the lifecycle of businesses in DC. A related BLS data series, the Quarterly Census of Employment and Wages (QCEW), tracks almost 38,000 public and private business establishments in DC, as of 2015. While the QCEW data and other sources can be useful for measuring the stock, the BDM data measures the flow of businesses being created (or closing), moving into (or out of) DC, or the pace consolidation & acquisitions. The chart below shows this flow of business entrants and exits since 2010.
+Two weeks ago we used wage data from the Bureau of Labor Statistics’ Occupational Employment Statistics (OES) dataset to analyze the occupations that make up DC’s <a href='http://open.dc.gov/econintel-cotw/08-2016.html' target="_blank">‘creative class’</a>. This week, <a href="http://districtmeasured.com/" target="_blank">District, Measured</a>, the blog of DC’s Office of Revenue Analysis, posted a fantastic <a href="https://districtmeasured.com/2016/08/23/d-c-s-cashiers-and-janitors-are-more-likely-to-live-in-the-city-than-other-workers-but-thats-changing/" target="_blank">investigation</a> of DC’s high, low, and middle-wage occupations, and where workers in those jobs tend to live. That analysis also used OES data as a basis for defining occupations by wage level. 
 
-<div class='tableauPlaceholder' id='viz1471467570755' style='position: relative'><noscript><a href='#'><img alt='COTW Entrants and Exits ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWEntrantsExits&#47;COTWEntrantsandExits&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='COTWEntrantsExits&#47;COTWEntrantsandExits' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWEntrantsExits&#47;COTWEntrantsandExits&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>  
+But what, specifically, are the salaries associated with specific occupations in DC? In our chart of the week, we provide an interactive tool to examine the reality of what workers in DC earn annually using the OES data. Below, you can see the distribution of DC salaries for both full-time and part-time workers, by occupation. Note that these occupations cross public and private sector lines – the phlebotomist category here includes both government phlebotomists and private sector phlebotomists.
 
+
+<div class='tableauPlaceholder' id='viz1472156120334' style='position: relative'><noscript><a href='#'><img alt='COTW ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-OccupationsandSalaries&#47;COTW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='COTW-OccupationsandSalaries&#47;COTW' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-OccupationsandSalaries&#47;COTW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                
 <script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1471467570755');                    
+  var divElement = document.getElementById('viz1472156120334');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='769px';                    
+  vizElement.style.width='504px';vizElement.style.height='1069px';                    
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script> 
+</script>
 
-Between 2010 and 2015, DC has seen net growth in the number of businesses, an increase of 2,308 establishments, though the quarterly readings vary widely. During this period, the professional and business services sector, which accounts for 30% of DC’s private sector jobs, accounted for the greatest share of entrants. Business exits, as represented in the BLS data, include firm mergers, acquisitions, going-out-of-business, and moves out of DC. The professional and business service sector also accounts for the greatest share of overall exits, but overall netted over 600 new DC businesses between 2010 and 2015. Education and health services also netted positive business generation, while financial activities and “other” services industry groups saw fewer entrants than exits. 
-
-BLS Business Employment Dynamics Data (BDM Data) is available <a href="http://www.bls.gov/bdm/" target="_blank">here</a>.
+In DC, the sectors with the widest wage distributions are management, life/physical/social sciences, and computer/mathematical occupations. The individual occupations with the widest ranges – over $100,000 separating the 25th and 75th percentile – are internists and makeup artists. Unsurprisingly, management occupations tend to have the highest median salaries, and CEOs top the field.
+<br><br>
+The lowest median salaries, for occupations which have annual salary data, include food prep workers and wait staff. Occupations in the food prep and serving sector have the lowest median wages, followed by personal care and service occupations. However, food prep and serving is the fourth largest occupation sector represented in DC. And the sector is growing – in 2015, 8.0% of jobs in DC were in food prep and serving, up from 6.3% in 2005. There’s been a net gain of over 15,800 jobs in the sector in that five year period, over 11,000 of which were added since 2010.  Meanwhile, as District, Measured notes, the workers in these low-wage occupations are less likely to live in DC, where they work. Most likely, this means that workers from the surrounding area are more likely to come to DC for this influx of jobs, and workers in these occupations who used to live in DC are moving out because of affordability concerns. 
+<br><br>
+BLS Occupational Employment Statistics (OES) data is available <a href="http://www.bls.gov/oes/">here</a>.
 
 <!--Begin CTCT Sign-Up Form-->
 <!-- EFD 1.0.0 [Mon Jun 06 12:44:43 EDT 2016] -->
