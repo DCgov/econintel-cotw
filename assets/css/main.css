@@ -269,6 +269,11 @@ a.title-link {
     border-bottom: none;
 }
 
+a.section-header {
+    color: black;
+    border-bottom: none;
+}
+
 a.title-link:hover,
 a.title-link:active,
 a.title-link:focus {
