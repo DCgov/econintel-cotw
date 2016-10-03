@@ -3,37 +3,47 @@ layout: page
 permalink: /
 title: Chart of the Week
 ---
+<h4>October 3, 2016</h4>
+<h3>Income: Taking it Personal</h3>
 
-<hr style="width: 475px; margin:1em 0">
+We track DC’s Personal Income because it represents the money District residents earn whether they work in DC or elsewhere. Personal Income is hardly “personal,” though – this metric aggregates up all incomes received by all DC residents. Our GDP, on the other hand, measures the value of all goods and services produced within the District, including both residents and non-residents. Use of both figures allow us to track our economy over time, and better understand where our residents make a living. Growth in our Personal Income reflects more income earned by DC residents. 
+<br><br>
+Personal Income represents residents’ income from all sources: from a job, from owning a home, from owning financial assets or from government benefits like Social Security. GDP, or gross domestic product, is the sum of what all consumers, businesses and government agencies spend on goods and services. DC’s GDP represents the overall strength of the economy located in DC, while Personal Income reflects the economic power of DC’s households. 
+<br><br>
+In DC, Personal Income has been growing at a rate faster than the US as a whole, as shown in the first chart. This is due in large part to some major population growth in DC – more people means more income. Among states, DC saw the greatest change in Personal Income between 2016 Q1 and Q2.
 
-<h4>September 22, 2016</h4>
-<h3>Now Landing in Washington, DC</h3>
-
-Air travelers come to DC for a variety of reasons – on business, on vacation, on a stopover en route elsewhere, and of course returning DMV residents end their round trip journeys here. We used <a href="http://www.transtats.bts.gov/DatabaseInfo.asp?DB_ID=111&DB_Name=Air%20Carrier%20Statistics%20(Form%2041%20Traffic)-%20All%20Carriers" target="_blank">US Department of Transportation data</a> on domestic and international flights to satisfy our curiosity about where DC visitors (and residents) are traveling from. The Air Carrier Statistics dataset shows where passengers originated, with or without stopovers, as long as they remained on the same flight number. All of the passengers counted here deplaned in one of the DC area’s three major airports, Dulles (IAD), Reagan National (DCA), and Baltimore Washington International (BWI). 
-
-<div class='tableauPlaceholder' id='viz1474575692279' style='position: relative'><noscript><a href='#'><img alt='Domestic ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWAirplane1&#47;Domestic&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='COTWAirplane1&#47;Domestic' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWAirplane1&#47;Domestic&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                
+<div class='tableauPlaceholder' id='viz1475512562728' style='position: relative'>
+  <noscript>
+    <a href='#'><img alt='*Personal Income ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-PersonalIncome&#47;PersonalIncome&#47;1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+    <param name='site_root' value='' />
+    <param name='name' value='COTW-PersonalIncome&#47;PersonalIncome' />
+    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-PersonalIncome&#47;PersonalIncome&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+  </object>
+</div>                
 <script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1474575692279');                    
+  var divElement = document.getElementById('viz1475512562728');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='469px';                    
+  vizElement.style.width='504px';vizElement.style.height='669px';                    
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-Within the US, most air travelers arrive in the DC area on flights originating in cities in the Eastern US and Midwest. Part of this is likely a symptom of the data’s limitations – we wouldn’t see travelers coming from California who catch connecting flights to DC in Dallas; they would be counted as Dallas arrivals. In 2015, Atlanta and Chicago, both homes to major international hubs, were the largest entry points to DC, followed by Boston and Dallas/Fort Worth. Traveling by train is a closer substitute to air travel along the Virginia-DC-Philadelphia-New York City corridor, where air passenger volumes were lower. Looking at year-over-year patterns, fewer people are flying to DC from cities in the Northeast and Great Lakes regions, but more are flying to DC from the Southeast. The biggest increase in arrival passengers in 2015 came from Florida, Texas, Illinois, Washington State, and Georgia, which saw DC-bound traveler increases of over 100,000 between 2014 and 2015.
+When we adjust for population, we can see that Per Capita Personal Income in DC is the highest in the country compared to other states – about $75,000. This is a reflection of DC’s unique position as a city and a state. Urban areas tend to have higher per-capita incomes (and higher costs of living). State metrics all include some data from rural and suburban areas, while DC’s data reflects a totally urban area. 
+<br><br>
+This state vs. city data effect can also be seen in the components of Personal Income. In 2016 Q2, net earnings from jobs & labor for residents in DC grew at a pace slower than 8 other states, even though as a whole DC’s Personal Income growth exceeded all states. The component of Personal Income which grew the most in DC was “transfer receipts,” which counts government benefits like retirement and disability insurance benefits (mainly Social Security), medical benefits (mainly Medicare and Medicaid), income maintenance benefits, unemployment insurance compensation, veterans’ benefits, and federal education and training assistance. The rate of growth of transfer receipts in DC was more in line with US metropolitan areas in the US, and less similar to the rates of growth in areas that are rural or suburban. 
+<br><br>
 
-<div class='tableauPlaceholder' id='viz1474575737199' style='position: relative'><noscript><a href='#'><img alt='International ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWAirplane2&#47;International&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='COTWAirplane2&#47;International' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWAirplane2&#47;International&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1474575737199');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='469px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-
-Outside of the US, the heaviest volume of travelers come from Europe, North America, and several Asian & Middle Eastern countries. DC saw increases in passenger traffic from most departure countries in the five year period between 2010 and 2015. Changes over that period can be heavily influenced by gaining or losing scheduled direct routes between international cities and DC. For example, DC gained direct routes between China and IAD on Air China. Arrivals from China more than doubled between 2010 and 2015. Arrivals from the United Arab Emirates nearly tripled in just five years. On the other hand, travelers flying from Argentina into DC on commercial air carriers required to report to USDOT declined to zero in 2015. 
 
 <!--Begin CTCT Sign-Up Form-->
 <!-- EFD 1.0.0 [Mon Jun 06 12:44:43 EDT 2016] -->
