@@ -6,7 +6,7 @@ title: Chart of the Week
 <h4>October 3, 2016</h4>
 <h3>Income: Taking it Personal</h3>
 
-We track DC’s Personal Income because it represents the money District residents earn whether they work in DC or elsewhere. Personal Income is hardly “personal,” though – this metric aggregates up all incomes received by all DC residents. Our GDP, on the other hand, measures the value of all goods and services produced within the District, including both residents and non-residents. Use of both figures allow us to track our economy over time, and better understand where our residents make a living. Growth in our Personal Income reflects more income earned by DC residents. 
+We track DC’s Personal Income because it represents the money District residents earn whether they work in DC or elsewhere. Personal Income is hardly “personal,” though – this metric aggregates up all incomes received by all DC residents. Our GDP, on the other hand, measures the value of all goods and services produced within the District, including both residents and non-residents. Use of both figures allow us to track our economy over time and better understand where our residents make a living. Growth in our Personal Income reflects more income earned by DC residents. 
 <br><br>
 Personal Income represents residents’ income from all sources: from a job, from owning a home, from owning financial assets or from government benefits like Social Security. GDP, or gross domestic product, is the sum of what all consumers, businesses and government agencies spend on goods and services. DC’s GDP represents the overall strength of the economy located in DC, while Personal Income reflects the economic power of DC’s households. 
 <br><br>
