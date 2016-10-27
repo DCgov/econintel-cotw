@@ -3,56 +3,26 @@ layout: page
 permalink: /
 title: Chart of the Week
 ---
-<h4>October 11, 2016</h4>
-<h3>Doing More with More: Putting Affordable Housing Dollars to Work</h3>
+<h4>October 27, 2016</h4>
+<h3>What's up (and down) with Labor Force Participation in the District?</h3>
 
-Since taking office, the Bowser Administration has invested $100 million annually into the Housing Production Trust Fund, which is one of several sources of financing for building new affordable housing and preserving existing affordable units. The Trust Fund is written into the <a href="https://beta.code.dccouncil.us/dc/council/code/sections/42-2802.html" target="_blank">DC Code</a>. Every year, at least half the spending (via loans, grants, and gap financing) must go toward funding affordable rental units. 40% of the spending every year must go toward units which are set aside for very low-income households, or those making at most 50% of the Area Median Income (AMI). Another 40% of the spending must go to units for extremely low-income households, or those that make less than 30% of AMI. You can find the income limits for FY16, by household size, posted by the US Department of Housing and Urban Development (HUD) <a href="https://www.huduser.gov/portal/datasets/il/il16/FY16-IL-dc.pdf" target="_blank">here</a>.
-<br><br>
-A <a href="http://housingtrustfundproject.org/wp-content/uploads/2016/10/HTF_Survey-Report-2016-final.pdf" target="_blank">recent report</a> by the Housing Trust Fund Project, a unit of the Center for Community Change, assessed the state of housing trust funds around the country. 49 states (plus DC) have established such funds. There are also city-level funds established in 35 states, and county-level funds established in 12 states. DC’s Trust Fund stands out.
-<br>
+The <a href="https://fred.stlouisfed.org/series/CIVPART/" target="_blank">Labor Force Participation Rate</a> in the US has been steadily decreasing since peaking in 2000 at over two-thirds of the adult civilian population. Today, that figure for the US as a whole is around 63%. That means about 93 million people working-age people in the US are neither working nor looking for work. The Labor Force Participation rate is a measure of who is in the labor force. It includes both those employed and those unemployed and searching for work. People out of the labor force may be out for different reasons – they may be homemakers, they could be prevented from working because of a medical condition, they may be retired, full-time students, or they may be so-called “discouraged” workers who have given up looking for a job. 
+ 
+In DC, where we have been creating jobs at a pace of over 10,000 per year for the last several years, the Labor Force Participation rate has increased overall. More jobs available may mean lower barriers to employment for DC residents. Plus, we’ve gained population, and people moving to the District for jobs are participating in the labor force. 
+ 
+We can look to the US Census’ American Community Survey to explore labor force participation in more detail. The chart below uses survey samples to compare two recent time periods in DC, one from 2006-2010 and another from 2010-2014. Since this is sample data, we need to take into account the margin of error when assessing whether positive or negative changes have happened. Looking by Ward, we can see that the Labor Force Participation rate has remained roughly the same or actually increased in seven of our eight Wards. Ward 7 is the clear outlier here; the proportion of Ward 7 residents in the labor force went down.
 
-<div class='tableauPlaceholder' id='viz1476199830518' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1477577229294' style='position: relative'>
   <noscript>
-    <a href='#'><img alt='Pie Charts - City&#47;State ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF1&#47;PieCharts-CityState&#47;1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='site_root' value='' /><param name='name' value='COTW-HPTF1&#47;PieCharts-CityState' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF1&#47;PieCharts-CityState&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-  </object>
-</div>
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1476199830518');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='469px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-
-<br>
-Though the report (rightly) counts DC as a state, if it were a city fund, DC’s investment accounted for over 1/5 of the total city Housing Trust Fund total invested nationwide in fiscal year 2015. Among states, DC’s $100 million investment made up over 1/8 of all state trust fund investments in fiscal year 2015. Among states, only Florida has a larger trust fund with $175 million invested in 2015.
-<br><br>
-Accounting for population, DC’s investment seems even more extraordinary. Comparing the housing investment in DC to the District’s population, it’s clear that we’re making a larger per-capita investment than any other state, as shown in the chart below.
-<br>
-
-<div class='tableauPlaceholder' id='viz1476199866900' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Bar Graph - States ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF2&#47;BarGraph-States&#47;1_rss.png' style='border: none' /></a>
+    <a href='#'><img alt='Labor Force by Ward ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP1&#47;LaborForcebyWard&#47;1_rss.png' style='border: none' /></a>
   </noscript>
   <object class='tableauViz'  style='display:none;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
     <param name='site_root' value='' />
-    <param name='name' value='COTW-HPTF2&#47;BarGraph-States' />
-    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF2&#47;BarGraph-States&#47;1.png' /> 
+    <param name='name' value='COTW-LFP1&#47;LaborForcebyWard' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP1&#47;LaborForcebyWard&#47;1.png' /> 
     <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
     <param name='display_spinner' value='yes' />
@@ -60,18 +30,54 @@ Accounting for population, DC’s investment seems even more extraordinary. Comp
     <param name='display_count' value='yes' />
   </object>
 </div>                
+  <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1477577229294');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    vizElement.style.width='504px';vizElement.style.height='569px';                    
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+  </script>
+
+<br>
+We can look a bit deeper at Ward data to see which demographic groups are driving the fluctuations. In the chart below, selecting a Ward and a Demographic Type will show data broken down by group and topic. The bars in blue and orange show the increase or decrease in Labor Force Participation Rate for each group. The skinnier the bar, the fewer people there are in the overall Ward population. The color shows how impactful that group was in driving the overall trend in the Ward. 
+<br>
+
+<div class='tableauPlaceholder' id='viz1477577360144' style='position: relative'>
+  <noscript>
+    <a href='#'><img alt='Change in Participation by Demo ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP2&#47;ChangeinParticipationbyDemo&#47;1_rss.png' style='border: none' /></a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+    <param name='site_root' value='' />
+    <param name='name' value='COTW-LFP2&#47;ChangeinParticipationbyDemo' />
+    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP2&#47;ChangeinParticipationbyDemo&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+  </object>
+</div>                
+
 <script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1476199866900');                    
+  var divElement = document.getElementById('viz1477577360144');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='469px';                    
+  vizElement.style.width='504px';vizElement.style.height='769px';                    
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-<br> 
-The Trust Fund is a dedicated source of funds for affordable housing as DC deals with booming population growth projections and rapidly changing neighborhoods. And it’s not just the investment that matters – it’s getting the money out the door and in the hands of organizations which are on the ground producing and preserving affordability for DC residents. That’s why we’re also proud to report that fiscal year 2016 (which just ended on September 30) was the first year the Department of Housing and Community Development (DHCD), which administers the Fund, also spent $100 million from the HPTF within one fiscal year. You can see data – updated monthly – on our pipeline of affordable housing projects in the District <a href="http://open.dc.gov/economic-intelligence/affordable-production-preservation.html" target="_blank">here</a> on DMPED’s dashboard. These projects include both HPTF-funded affordable housing, and housing which received other types of financing, like Low Income Housing Tax Credits, Federal grant funding, and land value write-downs. Other affordable housing units are produced via the Inclusionary Zoning program, which mandates a portion of all new developments (both for-sale and for-rent) in certain areas include affordable units. 
-<br><br>
+<br>
+In Ward 7, unlike other Wards in the city, males are driving the participation decrease. Males in Ward 7 dropped out of the labor force in a fashion that had a significant impact on the Ward's participation rate. In Ward 7, where the majority of the population is Black/African-American the labor force participation is decreasing among this population, which has an almost equally large impact on the rate. So we can infer that the demographic driving this change in Ward 7 is primarily Black males. The decrease is about equally spread out among different education levels. 
+ 
+The change does not necessarily mean that people in Ward 7 are dropping out of the labor force at a high clip. It could also mean that, due to migration, Ward 7 is gaining fewer participants (e.g. full-time students), or that participants are moving elsewhere. The rate only refers to the proportion of the population as a whole within the survey time periods.
+ 
+This is not a common trend within the rest of the city – in six of eight Wards the labor force participation rate grew or held steady for African Americans, and the same for males. In future analysis, we will explore more data to see what is driving these economic and demographic changes. Stay tuned.
+<br>
+
 
 <!--Begin CTCT Sign-Up Form-->
 <!-- EFD 1.0.0 [Mon Jun 06 12:44:43 EDT 2016] -->
