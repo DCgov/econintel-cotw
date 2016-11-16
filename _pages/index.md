@@ -3,26 +3,26 @@ layout: page
 permalink: /
 title: Chart of the Week
 ---
-<h4>October 27, 2016</h4>
-<h3>What's up (and down) with Labor Force Participation in the District?</h3>
+<h4>November 16, 2016</h4>
+<h3>District Buyer’s Club: Mortgages and Home Buying in DC</h3>
 
-The <a href="https://fred.stlouisfed.org/series/CIVPART/" target="_blank">Labor Force Participation Rate</a> in the US has been steadily decreasing since peaking in 2000 at over two-thirds of the adult civilian population. Today, that figure for the US as a whole is around 63%. That means about 93 million people working-age people in the US are neither working nor looking for work. The Labor Force Participation rate is a measure of who is in the labor force. It includes both those employed and those unemployed and searching for work. People out of the labor force may be out for different reasons – they may be homemakers, they could be prevented from working because of a medical condition, they may be retired, full-time students, or they may be so-called “discouraged” workers who have given up looking for a job. 
+This week we’re taking a look at a mortgage data to find out more about households buying homes in DC. Here, we’re looking at mortgages taken out for the purpose of buying a home between 2007-2015, excluding refinances and home-improvement loans. Not all home buyers take out a mortgage to buy their home. In fact, cash-buyer activity in DC made up a growing portion of the market post-recession (but has since retreated) as investors saw opportunity in the wake of the housing price crash and foreclosure crisis. And to look at the behavior of non-investors, we’ve also limited the data to households which purchased intending to occupy the home themselves. 
  
-In DC, where we have been creating jobs at a pace of over 10,000 per year for the last several years, the Labor Force Participation rate has increased overall. More jobs available may mean lower barriers to employment for DC residents. Plus, we’ve gained population, and people moving to the District for jobs are participating in the labor force. 
- 
-We can look to the US Census’ American Community Survey to explore labor force participation in more detail. The chart below uses survey samples to compare two recent time periods in DC, one from 2006-2010 and another from 2010-2014. Since this is sample data, we need to take into account the margin of error when assessing whether positive or negative changes have happened. Looking by Ward, we can see that the Labor Force Participation rate has remained roughly the same or actually increased in seven of our eight Wards. Ward 7 is the clear outlier here; the proportion of Ward 7 residents in the labor force went down.
+Overall, the volume of home purchase lending in DC has been on a slight upward trajectory since compressing amid the recession. In fact, DC saw in  2015 the most home-purchase loans made since 2007. Homes for sale in DC are expensive, and the average income of households who are taking out mortgages for home purchase is rising at a faster rate than the overall household income in DC. The first chart below shows the distribution of household incomes listed on mortgage applications for homebuyers who got mortgages. The gray dots show the HUD median household income for DC. 
 
-<div class='tableauPlaceholder' id='viz1477577229294' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1479326986667' style='position: relative'>
   <noscript>
-    <a href='#'><img alt='Labor Force by Ward ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP1&#47;LaborForcebyWard&#47;1_rss.png' style='border: none' /></a>
+    <a href='#'>
+      <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HMDA1&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+    </a>
   </noscript>
   <object class='tableauViz'  style='display:none;'>
     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
     <param name='site_root' value='' />
-    <param name='name' value='COTW-LFP1&#47;LaborForcebyWard' />
+    <param name='name' value='COTW-HMDA1&#47;Dashboard1' />
     <param name='tabs' value='no' />
     <param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP1&#47;LaborForcebyWard&#47;1.png' /> 
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HMDA1&#47;Dashboard1&#47;1.png' /> 
     <param name='animate_transition' value='yes' />
     <param name='display_static_image' value='yes' />
     <param name='display_spinner' value='yes' />
@@ -30,39 +30,8 @@ We can look to the US Census’ American Community Survey to explore labor force
     <param name='display_count' value='yes' />
   </object>
 </div>                
-  <script type='text/javascript'>                    
-    var divElement = document.getElementById('viz1477577229294');                    
-    var vizElement = divElement.getElementsByTagName('object')[0];                    
-    vizElement.style.width='504px';vizElement.style.height='569px';                    
-    var scriptElement = document.createElement('script');                    
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-  </script>
-
-<br>
-We can look a bit deeper at Ward data to see which demographic groups are driving the fluctuations. In the chart below, selecting a Ward and a Demographic Type will show data broken down by group and topic. The bars in blue and orange show the increase or decrease in Labor Force Participation Rate for each group. The skinnier the bar, the fewer people there are in the overall Ward population. The color shows how impactful that group was in driving the overall trend in the Ward. 
-<br>
-
-<div class='tableauPlaceholder' id='viz1477577360144' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Change in Participation by Demo ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP2&#47;ChangeinParticipationbyDemo&#47;1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='site_root' value='' />
-    <param name='name' value='COTW-LFP2&#47;ChangeinParticipationbyDemo' />
-    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP2&#47;ChangeinParticipationbyDemo&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-  </object>
-</div>                
-
 <script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1477577360144');                    
+  var divElement = document.getElementById('viz1479326986667');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
   vizElement.style.width='504px';vizElement.style.height='769px';                    
   var scriptElement = document.createElement('script');                    
@@ -71,11 +40,43 @@ We can look a bit deeper at Ward data to see which demographic groups are drivin
 </script>
 
 <br>
-In Ward 7, unlike other Wards in the city, males are driving the participation decrease. Males in Ward 7 dropped out of the labor force in a fashion that had a significant impact on the Ward's participation rate. In Ward 7, where the majority of the population is Black/African-American the labor force participation is decreasing among this population, which has an almost equally large impact on the rate. So we can infer that the demographic driving this change in Ward 7 is primarily Black males. The decrease is about equally spread out among different education levels. 
- 
-The change does not necessarily mean that people in Ward 7 are dropping out of the labor force at a high clip. It could also mean that, due to migration, Ward 7 is gaining fewer participants (e.g. full-time students), or that participants are moving elsewhere. The rate only refers to the proportion of the population as a whole within the survey time periods.
- 
-This is not a common trend within the rest of the city – in six of eight Wards the labor force participation rate grew or held steady for African Americans, and the same for males. In future analysis, we will explore more data to see what is driving these economic and demographic changes. Stay tuned.
+Though homebuyer incomes are rising on average, we still see significant numbers of households below median income are able to buy homes in DC. Scroll through the second visualization below to see the evolution of home-purchase borrower incomes since 2007.  The largest group getting mortgages for home purchase in DC were those with a primary borrower making between $75-$100K in annual income. The upper tail has been growing; households making over $250K have been taking out mortgages for home purchase at higher volumes in recent years. But at the same time, over 1000 households in DC with income less than $75K took out a home-purchase loan last year. And unlike in the lending environment in 2007, we can be more sure that those households were not victims of predatory lending practices. 
+<br>
+
+<div class='tableauPlaceholder' id='viz1479327133308' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HMDA2&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+    <param name='site_root' value='' />
+    <param name='name' value='COTW-HMDA2&#47;Dashboard2' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HMDA2&#47;Dashboard2&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+  </object>
+</div>                
+<script type='text/javascript'>                    
+  var divElement = document.getElementById('viz1479327133308');                    
+  var vizElement = divElement.getElementsByTagName('object')[0];                    
+  vizElement.style.width='504px';vizElement.style.height='469px';                    
+  var scriptElement = document.createElement('script');                    
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
+<br>
+Loan volume for households with less than $75K income may have been higher in 2007 due to subprime lending. And lower-income lending has decreased – in 2015, home purchase lending to households making less than $50,000 is at less than a third of what it was in 2007. The prevalence of low-doc and no-doc loans (so-called ‘liar’ loans) and subprime & predatory lending precipitated the housing crash. Here in DC, though the District proved more resilient to some of the effects of the recession, we can see that the housing market was not immune to some of those bad practices. In 2007, there were over four times as many mortgages where no income was reported on the application than in 2008. Those loans have all but disappeared, though it is possible to acquire a mortgage based on assets and not income. 
+
+<b>What is this data? </b>
+The Home Mortgage Disclosure Act requires lenders to push out information on all mortgage applications so that citizens and policymakers can better understand their local housing markets. Read more and download data <a href="http://www.consumerfinance.gov/data-research/hmda/" target="_blank">here</a>. 
 <br>
 
 
