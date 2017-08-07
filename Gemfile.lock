@@ -129,7 +129,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  RedCloth
   github-pages
 
 BUNDLED WITH
-   1.11.2
+   1.15.3
