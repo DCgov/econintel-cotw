@@ -1,193 +1,383 @@
----
-layout: page
-permalink: 10-2016.html
-title: October 2016
----
+<!DOCTYPE html>
+<html>
 
-<h4>October 27, 2016</h4>
-<h3>What's up (and down) with Labor Force Participation in the District?</h3>
+    
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>
+      
+        October 2016 - DMPED Economic Intelligence Dashboard
+      
+    </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/normalize.css">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/main.css">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/syntax.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/econintel-cotw/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-The <a href="https://fred.stlouisfed.org/series/CIVPART/" target="_blank">Labor Force Participation Rate</a> in the US has been steadily decreasing since peaking in 2000 at over two-thirds of the adult civilian population. Today, that figure for the US as a whole is around 63%. That means about 93 million people working-age people in the US are neither working nor looking for work. The Labor Force Participation rate is a measure of who is in the labor force. It includes both those employed and those unemployed and searching for work. People out of the labor force may be out for different reasons – they may be homemakers, they could be prevented from working because of a medical condition, they may be retired, full-time students, or they may be so-called “discouraged” workers who have given up looking for a job. 
- 
-In DC, where we have been creating jobs at a pace of over 10,000 per year for the last several years, the Labor Force Participation rate has increased overall. More jobs available may mean lower barriers to employment for DC residents. Plus, we’ve gained population, and people moving to the District for jobs are participating in the labor force. 
- 
-We can look to the US Census’ American Community Survey to explore labor force participation in more detail. The chart below uses survey samples to compare two recent time periods in DC, one from 2006-2010 and another from 2010-2014. Since this is sample data, we need to take into account the margin of error when assessing whether positive or negative changes have happened. Looking by Ward, we can see that the Labor Force Participation rate has remained roughly the same or actually increased in seven of our eight Wards. Ward 7 is the clear outlier here; the proportion of Ward 7 residents in the labor force went down.
 
-<div class='tableauPlaceholder' id='viz1477577229294' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Labor Force by Ward ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP1&#47;LaborForcebyWard&#47;1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='site_root' value='' />
-    <param name='name' value='COTW-LFP1&#47;LaborForcebyWard' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP1&#47;LaborForcebyWard&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-  </object>
-</div>                
-  <script type='text/javascript'>                    
-    var divElement = document.getElementById('viz1477577229294');                    
-    var vizElement = divElement.getElementsByTagName('object')[0];                    
-    vizElement.style.width='504px';vizElement.style.height='569px';                    
-    var scriptElement = document.createElement('script');                    
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+  <body>
+    <div class="container">
+      <header role="banner">
+        <div class="wrap">
+          
+            <a href="http://dmped.dc.gov"><img class="logo" src="/econintel-cotw/assets/img/we-are-wdc.png" alt="We Are Washington DC"></a>
+          
+          <h1 class="site-title"><a class="title-link" href="/econintel-cotw/">DMPED Economic Intelligence Dashboard</a></h1>
+          <h6 class="site-subtitle"> Deputy Mayor for Planning & Economic Development | Muriel Bowser, Mayor </h6>
+          <br>
+            <div class="navbar">
+              <ul>
+                <li><a href="http://open.dc.gov/economic-intelligence/">Economic Intelligence Dashboard</a></li>
+                <li><a href="http://open.dc.gov/econintel-wardtool/">Ward Indicators Tool</font></a></li>
+                <li><a href="/econintel-cotw/">Chart of the Week</a></li>
+                <li><a href="http://open.dc.gov/dmped-delivering/">DMPED Delivering</a></li>
+              </ul>
+        </div>
+        </div>
+        
+
+        
+      </header>
+
+      <div class="wrap content">
+
+        
+<!-- 
+nav {
+  position:fixed;left:60px;
+
+} -->
+
+
+<aside>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav class="sidebar-nav" role="navigation">
+
+
+    
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script>
+$(function() {
+  var Accordion = function(el, multiple) {
+    this.el = el || {};
+    this.multiple = multiple || false;
+
+    // Variables privadas
+    var links = this.el.find('.link');
+    // Evento
+    links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+  }
+
+  Accordion.prototype.dropdown = function(e) {
+    var $el = e.data.el;
+      $this = $(this),
+      $next = $this.next();
+
+    $next.slideToggle();
+    $this.parent().toggleClass('open');
+
+    if (!e.data.multiple) {
+      $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+    };
+  } 
+
+  var accordion = new Accordion($('#accordion'), false);
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+ul { list-style-type: none; }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+
+
+.accordion {
+  width: 100%;
+  max-width: 360px;
+  margin: 30px auto 20px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link { color: #b63b4d; }
+
+.accordion li.open i { color: #b63b4d; }
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+  background: FFFFFF;
+  font-size: 14px;
+}
+
+.submenu li { border-bottom: 1px solid #4b4a5e; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #BF0000;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #BF0000;
+  color: #FFF;
+}
+</style>
+
+<div class="jquery-script-ads" align="center" style="margin:20px auto"><script type="text/javascript"><!--
+
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead">
+</script></div>
+
+<li>
+              <a href="/econintel-cotw/./">Chart of the Week</a>
+            </li>
+<ul id="accordion" class="accordion">
+  <li>
+    <div class="link"><i class="fa fa-database"></i>2017<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="#">Coming Soon</a></li>
+       </ul>
+  </li>
+  <li>
+    <div class="link"><i class="fa fa-code"></i>2016<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="/econintel-cotw/03-2016.html">March</a></li>
+      <li><a href="/econintel-cotw/04-2016.html">April</a></li>
+      <li><a href="/econintel-cotw/05-2016.html">May</a></li>
+      <li><a href="/econintel-cotw/06-2016.html">June</a></li>
+      <li><a href="/econintel-cotw/07-2016.html">July</a></li>
+      <li><a href="/econintel-cotw/08-2016.html">August</a></li>
+      <li><a href="/econintel-cotw/09-2016.html">September</a></li>
+      <li><a href="/econintel-cotw/10-2016.html">October</a></li>
+      </ul>
+  </li>
+  
+</ul>
+
+
+
+
+  </nav>
+</aside>
+
+        <section id="main" class="main-content" role="main">
+          <h2 class="page-title">October 2016</h2>
+
+
+
+
+<br>
+
+<p style="border-left: 5px solid #BF0000;">
+
+      
+
+<a href=/econintel-cotw/Oct27,2016post.html>What's up (and down) with Labor Force Participation in the District?</a>
+  <br>   October 27, 2016    
+<br>
+<br>
+</p>
+
+<br>
+
+<p style="border-left: 5px solid #BF0000;">
+
+      
+
+<a href=/econintel-cotw/Oct11,2016post.html>Doing More with More: Putting Affordable Housing Dollars to Work</a>
+     <br>    October 11, 2016
+<br>
+<br>
+</p>
+
+<br>
+
+<p style="border-left: 5px solid #BF0000;">
+
+      
+
+<a href=/econintel-cotw/Oct3,2016post.html>Income: Taking it Personal</a>
+   <br>  October 3, 2016      
+<br>
+<br>
+</p>
+
+
+        </section>
+
+      </div><!-- /.wrap content -->
+
+      <div id="glossary">
+  <a href="#glossary" class="glossary-toggle">Close</a>
+  <h3>Glossary of Terms</h3>
+  <input type="search" id="glossary-search" placeholder="search here">
+  <div id="glossary-terms">
+    <ul>
+      
+      
+        <li class="glossary-term" hidden-term="false" id="a-glossary-term">
+          <div class="glossary-term-name">
+            A glossary term
+          </div>
+          <div class="glossary-term-definition">
+            <p>To add glossary terms, edit the glossary.yaml file in the _data folder.</p>
+
+          </div>
+        </li>
+      
+        <li class="glossary-term" hidden-term="false" id="another-glossary-term">
+          <div class="glossary-term-name">
+            Another term
+          </div>
+          <div class="glossary-term-definition">
+            <p>Glossary terms need a term, slug, and definition attribute.  The term attribute will appear above the definition. The slug is a unique identifier for the term. It should be lowercase, with no special characters or punctuation, and any spaces replaced with a dash.</p>
+
+          </div>
+        </li>
+      
+        <li class="glossary-term" hidden-term="false" id="yet-another-term">
+          <div class="glossary-term-name">
+            Yet another term
+          </div>
+          <div class="glossary-term-definition">
+            <p>Want to link to a specific glossary term in your text, like <a href="#glossary" define="yet-another-term">this one here</a>? You will need to edit your markdown like so: </p>
+
+<pre><code>[this one here](#glossary){:define="yet-another-term"}
+</code></pre>
+
+<p>Just place the text you want linked in the brackets and the correct slug within the quotes.</p>
+
+          </div>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+<script>
+  var glossary_data = [{"term":"A glossary term","slug":"a-glossary-term","definition":"To add glossary terms, edit the glossary.yaml file in the _data folder."},{"term":"Another term","slug":"another-glossary-term","definition":"Glossary terms need a term, slug, and definition attribute.  The term attribute will appear above the definition. The slug is a unique identifier for the term. It should be lowercase, with no special characters or punctuation, and any spaces replaced with a dash.\n"},{"term":"Yet another term","slug":"yet-another-term","definition":"Want to link to a specific glossary term in your text, like [this one here](#glossary){:define=\"yet-another-term\"}? You will need to edit your markdown like so: \n\n    [this one here](#glossary){:define=\"yet-another-term\"}\n\nJust place the text you want linked in the brackets and the correct slug within the quotes."}]
+</script>
+
+      <footer role="contentinfo">
+	<div class="wrap">
+
+	<p>If you have any ideas, data, or interest in helping us grow our dashboard, email us <a href="mailto:dmped.econintel@dc.gov">here</a>.</p>
+    <p>This project is maintained by <a href="http://dmped.dc.gov">Office of the Deputy Mayor for Planning and Economic Development</a> with support from <a href="http://octo.dc.gov">OCTO</a>.</p>
+    
+    <p>The <a href="https://github.com/DCgov/guides-template/">DCgov Guides theme</a> is based on <a href="https://github.com/cfpb/docter/">DOCter</a> from <a href="http://cfpb.github.io/">CFPB</a> and the <a href="https://github.com/18F/guides-template/">18F Guides theme</a>.</p>
+    <p><a href="https://github.com/DCgov/econintel-cotw/edit/gh-pages/">Edit this page</a> or <a href="https://github.com/DCgov/econintel-cotw/issues">file an issue</a> on GitHub.</p>
+  </div><!--/.wrap -->
+</footer>
+
+
+    </div> <!-- /.container -->
+    </body>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/econintel-cotw/assets/js/glossary.js"></script>
+<!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-91483925-1', 'auto');
+
+    // anonymize user IPs
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
   </script>
 
-<br>
-We can look a bit deeper at Ward data to see which demographic groups are driving the fluctuations. In the chart below, selecting a Ward and a Demographic Type will show data broken down by group and topic. The bars in blue and orange show the increase or decrease in Labor Force Participation Rate for each group. The skinnier the bar, the fewer people there are in the overall Ward population. The color shows how impactful that group was in driving the overall trend in the Ward. 
-<br>
 
-<div class='tableauPlaceholder' id='viz1477577360144' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Change in Participation by Demo ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP2&#47;ChangeinParticipationbyDemo&#47;1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='site_root' value='' />
-    <param name='name' value='COTW-LFP2&#47;ChangeinParticipationbyDemo' />
-    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-LFP2&#47;ChangeinParticipationbyDemo&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-  </object>
-</div>                
-
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1477577360144');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='769px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-
-<br>
-In Ward 7, unlike other Wards in the city, males are driving the participation decrease. Males in Ward 7 dropped out of the labor force in a fashion that had a significant impact on the Ward's participation rate. In Ward 7, where the majority of the population is Black/African-American the labor force participation is decreasing among this population, which has an almost equally large impact on the rate. So we can infer that the demographic driving this change in Ward 7 is primarily Black males. The decrease is about equally spread out among different education levels. 
- 
-The change does not necessarily mean that people in Ward 7 are dropping out of the labor force at a high clip. It could also mean that, due to migration, Ward 7 is gaining fewer participants (e.g. full-time students), or that participants are moving elsewhere. The rate only refers to the proportion of the population as a whole within the survey time periods.
- 
-This is not a common trend within the rest of the city – in six of eight Wards the labor force participation rate grew or held steady for African Americans, and the same for males. In future analysis, we will explore more data to see what is driving these economic and demographic changes. Stay tuned.
-<br>
-
-
-<h4>October 11, 2016</h4>
-<h3>Doing More with More: Putting Affordable Housing Dollars to Work</h3>
-
-Since taking office, the Bowser Administration has invested $100 million annually into the Housing Production Trust Fund, which is one of several sources of financing for building new affordable housing and preserving existing affordable units. The Trust Fund is written into the <a href="https://beta.code.dccouncil.us/dc/council/code/sections/42-2802.html" target="_blank">DC Code</a>. Every year, at least half the spending (via loans, grants, and gap financing) must go toward funding affordable rental units. 40% of the spending every year must go toward units which are set aside for very low-income households, or those making at most 50% of the Area Median Income (AMI). Another 40% of the spending must go to units for extremely low-income households, or those that make less than 30% of AMI. You can find the income limits for FY16, by household size, posted by the US Department of Housing and Urban Development (HUD) <a href="https://www.huduser.gov/portal/datasets/il/il16/FY16-IL-dc.pdf" target="_blank">here</a>.
-<br><br>
-A <a href="http://housingtrustfundproject.org/wp-content/uploads/2016/10/HTF_Survey-Report-2016-final.pdf" target="_blank">recent report</a> by the Housing Trust Fund Project, a unit of the Center for Community Change, assessed the state of housing trust funds around the country. 49 states (plus DC) have established such funds. There are also city-level funds established in 35 states, and county-level funds established in 12 states. DC’s Trust Fund stands out.
-<br>
-
-<div class='tableauPlaceholder' id='viz1476199830518' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Pie Charts - City&#47;State ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF1&#47;PieCharts-CityState&#47;1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='site_root' value='' /><param name='name' value='COTW-HPTF1&#47;PieCharts-CityState' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF1&#47;PieCharts-CityState&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-  </object>
-</div>
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1476199830518');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='469px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-
-<br>
-Though the report (rightly) counts DC as a state, if it were a city fund, DC’s investment accounted for over 1/5 of the total city Housing Trust Fund total invested nationwide in fiscal year 2015. Among states, DC’s $100 million investment made up over 1/8 of all state trust fund investments in fiscal year 2015. Among states, only Florida has a larger trust fund with $175 million invested in 2015.
-<br><br>
-Accounting for population, DC’s investment seems even more extraordinary. Comparing the housing investment in DC to the District’s population, it’s clear that we’re making a larger per-capita investment than any other state, as shown in the chart below.
-<br>
-
-<div class='tableauPlaceholder' id='viz1476199866900' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='Bar Graph - States ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF2&#47;BarGraph-States&#47;1_rss.png' style='border: none' /></a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='site_root' value='' />
-    <param name='name' value='COTW-HPTF2&#47;BarGraph-States' />
-    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-HPTF2&#47;BarGraph-States&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-  </object>
-</div>                
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1476199866900');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='469px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-
-<br> 
-The Trust Fund is a dedicated source of funds for affordable housing as DC deals with booming population growth projections and rapidly changing neighborhoods. And it’s not just the investment that matters – it’s getting the money out the door and in the hands of organizations which are on the ground producing and preserving affordability for DC residents. That’s why we’re also proud to report that fiscal year 2016 (which just ended on September 30) was the first year the Department of Housing and Community Development (DHCD), which administers the Fund, also spent $100 million from the HPTF within one fiscal year. You can see data – updated monthly – on our pipeline of affordable housing projects in the District <a href="http://open.dc.gov/economic-intelligence/affordable-production-preservation.html" target="_blank">here</a> on DMPED’s dashboard. These projects include both HPTF-funded affordable housing, and housing which received other types of financing, like Low Income Housing Tax Credits, Federal grant funding, and land value write-downs. Other affordable housing units are produced via the Inclusionary Zoning program, which mandates a portion of all new developments (both for-sale and for-rent) in certain areas include affordable units. 
-<br><br>
-
-<a name="personal-income" class="section-header">
-<h4>October 3, 2016</h4>
-<h3>Income: Taking it Personal</h3>
-</a>
-We track DC’s Personal Income because it represents the money District residents earn whether they work in DC or elsewhere. Personal Income is hardly “personal,” though – this metric aggregates up all incomes received by all DC residents. Our GDP, on the other hand, measures the value of all goods and services produced within the District, including both residents and non-residents. Use of both figures allow us to track our economy over time and better understand where our residents make a living. Growth in our Personal Income reflects more income earned by DC residents. 
-<br><br>
-Personal Income represents residents’ income from all sources: from a job, from owning a home, from owning financial assets or from government benefits like Social Security. GDP, or gross domestic product, is the sum of what all consumers, businesses and government agencies spend on goods and services. DC’s GDP represents the overall strength of the economy located in DC, while Personal Income reflects the economic power of DC’s households. 
-<br><br>
-In DC, Personal Income has been growing at a rate faster than the US as a whole, as shown in the first chart. This is due in large part to some major population growth in DC – more people means more income. Among states, DC saw the greatest change in Personal Income between 2016 Q1 and Q2.
-
-<div class='tableauPlaceholder' id='viz1475512562728' style='position: relative'>
-  <noscript>
-    <a href='#'><img alt='*Personal Income ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-PersonalIncome&#47;PersonalIncome&#47;1_rss.png' style='border: none' />
-    </a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='site_root' value='' />
-    <param name='name' value='COTW-PersonalIncome&#47;PersonalIncome' />
-    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-PersonalIncome&#47;PersonalIncome&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-  </object>
-</div>                
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1475512562728');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='669px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-
-When we adjust for population, we can see that Per Capita Personal Income in DC is the highest in the country compared to other states – about $75,000. This is a reflection of DC’s unique position as a city and a state. Urban areas tend to have higher per-capita incomes (and higher costs of living). State metrics all include some data from rural and suburban areas, while DC’s data reflects a totally urban area. 
-<br><br>
-This state vs. city data effect can also be seen in the components of Personal Income. In 2016 Q2, net earnings from jobs & labor for residents in DC grew at a pace slower than 8 other states, even though as a whole DC’s Personal Income growth exceeded all states. The component of Personal Income which grew the most in DC was “transfer receipts,” which counts government benefits like retirement and disability insurance benefits (mainly Social Security), medical benefits (mainly Medicare and Medicaid), income maintenance benefits, unemployment insurance compensation, veterans’ benefits, and federal education and training assistance. The rate of growth of transfer receipts in DC was more in line with US metropolitan areas in the US, and less similar to the rates of growth in areas that are rural or suburban. 
-<br><br>
+</html>

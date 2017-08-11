@@ -1,47 +1,380 @@
----
-layout: page
-permalink: 03-2016.html
-title: March 2016
----
-<h4>April 7, 2016</h4>
-<h3>Personal Income Per Capita in DC</h3>
+<!DOCTYPE html>
+<html>
 
-Personal income measures the total income of the residents of DC, and we track that metric in our regular dashboard. This per capita metric averages it out among all DC residents to account for population changes. As in most urban areas, DC’s per capita income is higher than the US average. More importantly, DC’s personal income per capita has been growing steadily (year-over-year) since dipping in 2013. And DC’s personal income per capita growth has exceeded the US growth rate in the last 8 quarters.
+    
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>
+      
+        March 2016 - DMPED Economic Intelligence Dashboard
+      
+    </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/normalize.css">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/main.css">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/syntax.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/econintel-cotw/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 454px; height: 419px;'><noscript><a href='#'><img alt='Per Capita Personal Income ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;PersonalIncomePerCapita&#47;PerCapitaPersonalIncome&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='454' height='419' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='PersonalIncomePerCapita&#47;PerCapitaPersonalIncome' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pe&#47;PersonalIncomePerCapita&#47;PerCapitaPersonalIncome&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
 
-<hr style="width: 475px; margin:1em 0">
+  <body>
+    <div class="container">
+      <header role="banner">
+        <div class="wrap">
+          
+            <a href="http://dmped.dc.gov"><img class="logo" src="/econintel-cotw/assets/img/we-are-wdc.png" alt="We Are Washington DC"></a>
+          
+          <h1 class="site-title"><a class="title-link" href="/econintel-cotw/">DMPED Economic Intelligence Dashboard</a></h1>
+          <h6 class="site-subtitle"> Deputy Mayor for Planning & Economic Development | Muriel Bowser, Mayor </h6>
+          <br>
+            <div class="navbar">
+              <ul>
+                <li><a href="http://open.dc.gov/economic-intelligence/">Economic Intelligence Dashboard</a></li>
+                <li><a href="http://open.dc.gov/econintel-wardtool/">Ward Indicators Tool</font></a></li>
+                <li><a href="/econintel-cotw/">Chart of the Week</a></li>
+                <li><a href="http://open.dc.gov/dmped-delivering/">DMPED Delivering</a></li>
+              </ul>
+        </div>
+        </div>
+        
 
-<h4>March 29, 2016</h4>
-<h3>Film and Television Activity in DC Public Spaces</h3>
+        
+      </header>
 
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
-<div class='tableauPlaceholder' style='width: 450px; height: 769px;'>
-	<noscript>
-		<a href='#'><img alt='OCTFME Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;OC&#47;OCTFMEpermits&#47;OCTFMEDashboard&#47;1_rss.png' style='border: none' /></a>
-	</noscript>
-	<object class='tableauViz' width='450' height='769' style='display:none;'>
-		<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-		<param name='site_root' value='' />
-		<param name='name' value='OCTFMEpermits&#47;OCTFMEDashboard' />
-		<param name='tabs' value='no' />
-		<param name='toolbar' value='yes' />
-		<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;OC&#47;OCTFMEpermits&#47;OCTFMEDashboard&#47;1.png' /> 
-		<param name='animate_transition' value='yes' />
-		<param name='display_static_image' value='yes' />
-		<param name='display_spinner' value='yes' />
-		<param name='display_overlay' value='yes' />
-		<param name='display_count' value='yes' />
-		<param name='showTabs' value='y' />
-	</object>
+      <div class="wrap content">
+
+        
+<!-- 
+nav {
+  position:fixed;left:60px;
+
+} -->
+
+
+<aside>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav class="sidebar-nav" role="navigation">
+
+
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script>
+$(function() {
+  var Accordion = function(el, multiple) {
+    this.el = el || {};
+    this.multiple = multiple || false;
+
+    // Variables privadas
+    var links = this.el.find('.link');
+    // Evento
+    links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+  }
+
+  Accordion.prototype.dropdown = function(e) {
+    var $el = e.data.el;
+      $this = $(this),
+      $next = $this.next();
+
+    $next.slideToggle();
+    $this.parent().toggleClass('open');
+
+    if (!e.data.multiple) {
+      $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+    };
+  } 
+
+  var accordion = new Accordion($('#accordion'), false);
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+ul { list-style-type: none; }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+
+.accordion {
+  width: 100%;
+  max-width: 360px;
+  margin: 30px auto 20px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+
+
+}
+
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 20px;
+  color: 696969;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link { color: #b63b4d; }
+
+.accordion li.open i { color: #b63b4d; }
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+  background: FFFFFF;
+  font-size: 14px;
+}
+
+.submenu li { border-bottom: 1px solid #4b4a5e; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #BF0000;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #BF0000;
+  color: #FFF;
+}
+</style>
+
+
+<div class="jquery-script-ads" align="center" style="margin:20px auto"><script type="text/javascript"><!--
+
+
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead">
+</script></div>
+
+
+<li>
+              <a href="/econintel-cotw/./">Chart of the Week</a>
+            </li>
+
+
+
+<ul id="accordion" class="accordion">
+  <li>
+    <div class="link"><i class="fa fa-database"></i>2017<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="#">Coming Soon</a></li>
+      
+    </ul>
+  </li>
+  <li>
+    <div class="link"><i class="fa fa-code"></i>2016<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="/econintel-cotw/03-2016.html">March</a></li>
+      <li><a href="/econintel-cotw/04-2016.html">April</a></li>
+      <li><a href="/econintel-cotw/05-2016.html">May</a></li>
+      <li><a href="/econintel-cotw/06-2016.html">June</a></li>
+      <li><a href="/econintel-cotw/07-2016.html">July</a></li>
+      <li><a href="/econintel-cotw/08-2016.html">August</a></li>
+      <li><a href="/econintel-cotw/09-2016.html">September</a></li>
+      <li><a href="/econintel-cotw/10-2016.html">October</a></li>
+    </ul>
+  </li>
+  
+</ul>
+
+
+
+
+  </nav>
+</aside>
+
+
+
+
+
+
+
+
+        <section id="main" class="main-content" role="main">
+
+<h2 class="page-title">March 2016</h2>
+
+<br>
+
+
+
+
+
+<p style="border-left: 5px solid #BF0000;">
+
+              <a href=/econintel-cotw/Mar29,2016post.html>Film & TV Activity in DC public Spaces</a>
+              <br>
+              March 29, 2016
+           
+<br>
+<br>
+</p>
+
+
+
+
+          
+
+
+        </section>
+
+      </div><!-- /.wrap content -->
+
+      <div id="glossary">
+  <a href="#glossary" class="glossary-toggle">Close</a>
+  <h3>Glossary of Terms</h3>
+  <input type="search" id="glossary-search" placeholder="search here">
+  <div id="glossary-terms">
+    <ul>
+      
+      
+        <li class="glossary-term" hidden-term="false" id="a-glossary-term">
+          <div class="glossary-term-name">
+            A glossary term
+          </div>
+          <div class="glossary-term-definition">
+            <p>To add glossary terms, edit the glossary.yaml file in the _data folder.</p>
+
+          </div>
+        </li>
+      
+        <li class="glossary-term" hidden-term="false" id="another-glossary-term">
+          <div class="glossary-term-name">
+            Another term
+          </div>
+          <div class="glossary-term-definition">
+            <p>Glossary terms need a term, slug, and definition attribute.  The term attribute will appear above the definition. The slug is a unique identifier for the term. It should be lowercase, with no special characters or punctuation, and any spaces replaced with a dash.</p>
+
+          </div>
+        </li>
+      
+        <li class="glossary-term" hidden-term="false" id="yet-another-term">
+          <div class="glossary-term-name">
+            Yet another term
+          </div>
+          <div class="glossary-term-definition">
+            <p>Want to link to a specific glossary term in your text, like <a href="#glossary" define="yet-another-term">this one here</a>? You will need to edit your markdown like so: </p>
+
+<pre><code>[this one here](#glossary){:define="yet-another-term"}
+</code></pre>
+
+<p>Just place the text you want linked in the brackets and the correct slug within the quotes.</p>
+
+          </div>
+        </li>
+      
+    </ul>
+  </div>
 </div>
 
-<br>
-Time Lapse: DC Film and Television Public Space Permits
-<br>
-Issued Since Jan 2015
-<br>
-<iframe width="454" height="520" frameborder="0" src="//mcwhittaker.cartodb.com/viz/f1c96034-e6cd-11e5-9596-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<script>
+  var glossary_data = [{"term":"A glossary term","slug":"a-glossary-term","definition":"To add glossary terms, edit the glossary.yaml file in the _data folder."},{"term":"Another term","slug":"another-glossary-term","definition":"Glossary terms need a term, slug, and definition attribute.  The term attribute will appear above the definition. The slug is a unique identifier for the term. It should be lowercase, with no special characters or punctuation, and any spaces replaced with a dash.\n"},{"term":"Yet another term","slug":"yet-another-term","definition":"Want to link to a specific glossary term in your text, like [this one here](#glossary){:define=\"yet-another-term\"}? You will need to edit your markdown like so: \n\n    [this one here](#glossary){:define=\"yet-another-term\"}\n\nJust place the text you want linked in the brackets and the correct slug within the quotes."}]
+</script>
+
+      <footer role="contentinfo">
+	<div class="wrap">
+
+	<p >If you have any ideas, data, or interest in helping us grow our dashboard, email us <a href="mailto:dmped.econintel@dc.gov">here</a>.</p>
+    <p>This project is maintained by <a href="http://dmped.dc.gov">Office of the Deputy Mayor for Planning and Economic Development</a> with support from <a href="http://octo.dc.gov">OCTO</a>.</p>
+    
+    <p>The <a href="https://github.com/DCgov/guides-template/">DCgov Guides theme</a> is based on <a href="https://github.com/cfpb/docter/">DOCter</a> from <a href="http://cfpb.github.io/">CFPB</a> and the <a href="https://github.com/18F/guides-template/">18F Guides theme</a>.</p>
+    <p><a href="https://github.com/DCgov/econintel-cotw/edit/gh-pages/">Edit this page</a> or <a href="https://github.com/DCgov/econintel-cotw/issues">file an issue</a> on GitHub.</p>
+  </div><!--/.wrap -->
+</footer>
 
 
-<hr style="width: 475px; margin:1em 0">
+    </div> <!-- /.container -->
+    </body>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/econintel-cotw/assets/js/glossary.js"></script>
+<!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-91483925-1', 'auto');
+
+    // anonymize user IPs
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+  </script>
+
+
+</html>

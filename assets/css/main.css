@@ -1,6 +1,3 @@
----
----
-
 /*
 Main.css
 ==================================
@@ -11,6 +8,10 @@ Begin with generic 'mobile first' styles
 Normalize the box model
 ==================================
 */
+
+
+
+
 
 *,
 *:before,
@@ -33,6 +34,7 @@ html, body {
 Typography
 ==================================
 */
+
 
 body {
     font-family: "Avenir Next", Arial, sans-serif;
@@ -307,6 +309,7 @@ Navigation
   -webkit-transition: unset;
   transition: unset;
 }
+
 .sidebar-nav a,
 .sidebar-nav a:link,
 .sidebar-nav a:visited {
@@ -318,7 +321,7 @@ Navigation
 .sidebar-nav li:active,
 .sidebar-nav .sidebar-nav-active {
   color: #75787b;
-  border-left: 4px solid {{ site.brand_color }};
+  border-left: 4px solid #BF0000;
   background-color: transparent;
   border-bottom: 1px solid #babbbd;
 }
@@ -387,7 +390,7 @@ header {
 
 .navbar {
     width: 100%;
-    background-color: {{ site.brand_color }};
+    background-color: #BF0000;
 }
 
 .navbar ul {

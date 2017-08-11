@@ -1,78 +1,408 @@
----
-layout: page
-permalink: 08-2016.html
-title: August 2016
----
-<h4>August 25, 2016</h4>
-<h3>Interactive DC salary data</h3>
+<!DOCTYPE html>
+<html>
 
-Two weeks ago we used wage data from the Bureau of Labor Statistics’ Occupational Employment Statistics (OES) dataset to analyze the occupations that make up DC’s <a href='http://open.dc.gov/econintel-cotw/08-2016.html' target="_blank">‘creative class’</a>. This week, <a href="http://districtmeasured.com/" target="_blank">District, Measured</a>, the blog of DC’s Office of Revenue Analysis, posted a fantastic <a href="https://districtmeasured.com/2016/08/23/d-c-s-cashiers-and-janitors-are-more-likely-to-live-in-the-city-than-other-workers-but-thats-changing/" target="_blank">investigation</a> of DC’s high, low, and middle-wage occupations, and where workers in those jobs tend to live. That analysis also used OES data as a basis for defining occupations by wage level. 
+    
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>
+      
+        August 2016 - DMPED Economic Intelligence Dashboard
+      
+    </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/normalize.css">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/main.css">
+    <link rel="stylesheet" href="/econintel-cotw/assets/css/syntax.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/econintel-cotw/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-But what, specifically, are the salaries associated with specific occupations in DC? In our chart of the week, we provide an interactive tool to examine the reality of what workers in DC earn annually using the OES data. Below, you can see the distribution of DC salaries for both full-time and part-time workers, by occupation. Note that these occupations cross public and private sector lines – the phlebotomist category here includes both government phlebotomists and private sector phlebotomists.
+
+  <body>
+    <div class="container">
+      <header role="banner">
+        <div class="wrap">
+          
+            <a href="http://dmped.dc.gov"><img class="logo" src="/econintel-cotw/assets/img/we-are-wdc.png" alt="We Are Washington DC"></a>
+          
+          <h1 class="site-title"><a class="title-link" href="/econintel-cotw/">DMPED Economic Intelligence Dashboard</a></h1>
+          <h6 class="site-subtitle"> Deputy Mayor for Planning & Economic Development | Muriel Bowser, Mayor </h6>
+          <br>
+            <div class="navbar">
+              <ul>
+                <li><a href="http://open.dc.gov/economic-intelligence/">Economic Intelligence Dashboard</a></li>
+                <li><a href="http://open.dc.gov/econintel-wardtool/">Ward Indicators Tool</font></a></li>
+                <li><a href="/econintel-cotw/">Chart of the Week</a></li>
+                <li><a href="http://open.dc.gov/dmped-delivering/">DMPED Delivering</a></li>
+              </ul>
+        </div>
+        </div>
+        
+
+        
+      </header>
+
+      <div class="wrap content">
+
+        
+<!-- 
+nav {
+  position:fixed;left:60px;
+
+} -->
 
 
-<div class='tableauPlaceholder' id='viz1472156120334' style='position: relative'><noscript><a href='#'><img alt='COTW ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-OccupationsandSalaries&#47;COTW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='COTW-OccupationsandSalaries&#47;COTW' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTW-OccupationsandSalaries&#47;COTW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1472156120334');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='1069px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+<aside>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav class="sidebar-nav" role="navigation">
+
+
+    
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script>
+$(function() {
+  var Accordion = function(el, multiple) {
+    this.el = el || {};
+    this.multiple = multiple || false;
+
+    // Variables privadas
+    var links = this.el.find('.link');
+    // Evento
+    links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+  }
+
+  Accordion.prototype.dropdown = function(e) {
+    var $el = e.data.el;
+      $this = $(this),
+      $next = $this.next();
+
+    $next.slideToggle();
+    $this.parent().toggleClass('open');
+
+    if (!e.data.multiple) {
+      $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+    };
+  } 
+
+  var accordion = new Accordion($('#accordion'), false);
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 
-In DC, the sectors with the widest wage distributions are management, life/physical/social sciences, and computer/mathematical occupations. The individual occupations with the widest ranges – over $100,000 separating the 25th and 75th percentile – are internists and makeup artists. Unsurprisingly, management occupations tend to have the highest median salaries, and CEOs top the field.
-<br><br>
-The lowest median salaries, for occupations which have annual salary data, include food prep workers and wait staff. Occupations in the food prep and serving sector have the lowest median wages, followed by personal care and service occupations. However, food prep and serving is the fourth largest occupation sector represented in DC. And the sector is growing – in 2015, 8.0% of jobs in DC were in food prep and serving, up from 6.3% in 2005. There’s been a net gain of over 15,800 jobs in the sector in that five year period, over 11,000 of which were added since 2010.  Meanwhile, as District, Measured notes, the workers in these low-wage occupations are less likely to live in DC, where they work. Most likely, this means that workers from the surrounding area are more likely to come to DC for this influx of jobs, and workers in these occupations who used to live in DC are moving out because of affordability concerns. 
-<br><br>
-BLS Occupational Employment Statistics (OES) data is available <a href="http://www.bls.gov/oes/">here</a>.
 
-<hr style="width: 475px; margin:1em 0">
 
-<h4>August 17, 2016</h4>
-<h3>Tracking the Flows of Businesses in the District</h3>
 
-In the last few years, DC has seen sustained job growth and an increase in the rate of employment for District residents. Using the Bureau of Labor Statistics’ (BLS) Business Employment Dynamics Survey (BDM), we get a view into the lifecycle of businesses in DC. A related BLS data series, the Quarterly Census of Employment and Wages (QCEW), tracks almost 38,000 public and private business establishments in DC, as of 2015. While the QCEW data and other sources can be useful for measuring the stock, the BDM data measures the flow of businesses being created (or closing), moving into (or out of) DC, or the pace consolidation & acquisitions. The chart below shows this flow of business entrants and exits since 2010.
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-<div class='tableauPlaceholder' id='viz1472156088102' style='position: relative'><noscript><a href='#'><img alt='COTW Entrants and Exits ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWEntrantsExits&#47;COTWEntrantsandExits&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='COTWEntrantsExits&#47;COTWEntrantsandExits' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COTWEntrantsExits&#47;COTWEntrantsandExits&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                
-<script type='text/javascript'>                    
-	var divElement = document.getElementById('viz1472156088102');                    
-	var vizElement = divElement.getElementsByTagName('object')[0];                    
-	vizElement.style.width='504px';vizElement.style.height='769px';                    
-	var scriptElement = document.createElement('script');                    
-	scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-	vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+
+ul { list-style-type: none; }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+
+
+
+.accordion {
+  width: 100%;
+  max-width: 360px;
+  margin: 30px auto 20px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link { color: #b63b4d; }
+
+.accordion li.open i { color: #b63b4d; }
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+  background: FFFFFF;
+  font-size: 14px;
+}
+
+.submenu li { border-bottom: 1px solid #4b4a5e; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #BF0000;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #BF0000;
+  color: #FFF;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jquery-script-ads" align="center" style="margin:20px auto"><script type="text/javascript"><!--
+
+
+
 </script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead">
+</script></div>
+<!-- Contenedor -->
+<li>
+              <a href="/econintel-cotw/./">Chart of the Week</a>
+            </li>
+<ul id="accordion" class="accordion">
+  <li>
+    <div class="link"><i class="fa fa-database"></i>2017<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="#">Coming Soon</a></li>
+      </ul>
+  </li>
+  <li>
+    <div class="link"><i class="fa fa-code"></i>2016<i class="fa fa-chevron-down"></i></div>
+    <ul class="submenu">
+      <li><a href="/econintel-cotw/03-2016.html">March</a></li>
+      <li><a href="/econintel-cotw/04-2016.html">April</a></li>
+      <li><a href="/econintel-cotw/05-2016.html">May</a></li>
+      <li><a href="/econintel-cotw/06-2016.html">June</a></li>
+      <li><a href="/econintel-cotw/07-2016.html">July</a></li>
+      <li><a href="/econintel-cotw/08-2016.html">August</a></li>
+      <li><a href="/econintel-cotw/09-2016.html">September</a></li>
+      <li><a href="/econintel-cotw/10-2016.html">October</a></li>
+      </ul>
+  </li>
+  
+</ul>
 
-Between 2010 and 2015, DC has seen net growth in the number of businesses, an increase of 2,308 establishments, though the quarterly readings vary widely. During this period, the professional and business services sector, which accounts for 30% of DC’s private sector jobs, accounted for the greatest share of entrants. Business exits, as represented in the BLS data, include firm mergers, acquisitions, going-out-of-business, and moves out of DC. The professional and business service sector also accounts for the greatest share of overall exits, but overall netted over 600 new DC businesses between 2010 and 2015. Education and health services also netted positive business generation, while financial activities and “other” services industry groups saw fewer entrants than exits. 
+
+
+
+  </nav>
+</aside>
+
+        <section id="main" class="main-content" role="main">
+          <h2 class="page-title">August 2016</h2>
+
+
+
 <br>
-BLS Business Employment Dynamics Data (BDM Data) is available <a href="http://www.bls.gov/bdm/" target="_blank">here</a>.
 
-<hr style="width: 475px; margin:1em 0">
+<p style="border-left: 5px solid #BF0000;">
 
-<a name="creative-class" class="section-header">
-<h4>August 10, 2016</h4>
-<h3>DC’s “Creative Class”: An Update</h3>
-</a>
- 
-In Richard Florida’s The Rise of the Creative Class, first published in 2002, Florida promotes the idea that urban economic growth is closely linked to a city’s ability to support and grow the “Creative Class.”  This group is defined by occupations that require certain levels of creativity -- realized through the traditional artistic endeavors or through complex professional problem solving.  Essentially, Florida’s argument is that cities which provide desirable environments for creative professionals generally prosper while those that do not typically fall behind. His argument boils down to the fact that it isn’t access to raw materials or even large corporations that drive economic advantage. Rather, it is talented and creative people who spur growth and innovation at the local and regional level. 
+      
 
-In Washington, D.C., over 50% of jobs are in Creative Class fields. Florida breaks down the Creative Class into ten occupational groups derived from the U.S. Bureau of Labor Statistics’ (BLS) Occupational Employment Statistics (OES). 2010 OES data  indicated that 57.8% of Washington D.C.’s workforce was made up of Creative Class workers.  According to 2010 data, the Washington metro area had the third largest share of Creative Class individuals (46.8%), right behind the metro areas of San Jose, CA and Durham, NC, with shares of 46.9% and 48.4% respectively. The fact that the District's share of the metro area's Creative Class has remained constant since then reflects well on its ability to retain Creative Class workers.
+<a href=/econintel-cotw/Aug25,2016post.html>Interactive DC salary data</a>
+   <br>      August 25, 2016
+<br>
+<br>
+</p>
 
-We’ve updated the DC metrics using the same methodology and 2015 OES survey data (the most recent). Even as the number of jobs in DC has grown, and we’ve shifted to a less Federal government centric labor market, the share of Creative Class workers stayed relatively constant at 58.5%. It’s interesting to note that these occupation groups, shown in the second chart below, can also overlap with government employment – that is, some people in computer and mathematical occupations may be Federal employees.
+<br>
 
-<div class='tableauPlaceholder' id='viz1470854779585' style='position: relative'><noscript><a href='#'><img alt='Washington, D.C. Creative Class ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CreativeClass_0&#47;WashingtonD_C_CreativeClass&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='CreativeClass_0&#47;WashingtonD_C_CreativeClass' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CreativeClass_0&#47;WashingtonD_C_CreativeClass&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1470854779585');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  vizElement.style.width='504px';vizElement.style.height='1019px';                    
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>    
+<p style="border-left: 5px solid #BF0000;">
 
-A major component of the Creative Class theory is that such individuals drive growth in places that celebrate diversity and inclusion, even more than places which simply offer jobs without much else. These workers also desire places with cultural institutions, unique neighborhoods, <a href="http://open.dc.gov/econintel-cotw/05-2016.html" target="_blank">dynamic restaurant scenes</a>, and an interesting nightlife. 
+      
 
-What’s more, members of Creative Class occupational groups generally make more than others across all occupations. The chart above shows a breakdown of those groups to show how annual and hourly median wages have changed for Creative Class occupational segments as compared to all occupations across Washington, DC between the years 2010 and 2015. 
+<a href=/econintel-cotw/Aug17,2016post.html>Tracking the Flows of Businesses in the District</a>
+    <br>     August 17, 2016
+<br>
+<br>
+</p>
 
-The BLS OES data can be found <a href="http://www.bls.gov/oes/tables.htm" target="_blank">here</a>. Find out more about the Creative Class theory <a href="https://en.wikipedia.org/wiki/Creative_class" target="_blank">here</a>. 
+<br>
+
+<p style="border-left: 5px solid #BF0000;">
+
+      
+<a href=/econintel-cotw/Aug10,2016post.html>DC's "Creative Class": An Update</a>
+   <br>August 10, 2016
+      
+<br>
+<br>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+      </div><!-- /.wrap content -->
+
+      <div id="glossary">
+  <a href="#glossary" class="glossary-toggle">Close</a>
+  <h3>Glossary of Terms</h3>
+  <input type="search" id="glossary-search" placeholder="search here">
+  <div id="glossary-terms">
+    <ul>
+      
+      
+        <li class="glossary-term" hidden-term="false" id="a-glossary-term">
+          <div class="glossary-term-name">
+            A glossary term
+          </div>
+          <div class="glossary-term-definition">
+            <p>To add glossary terms, edit the glossary.yaml file in the _data folder.</p>
+
+          </div>
+        </li>
+      
+        <li class="glossary-term" hidden-term="false" id="another-glossary-term">
+          <div class="glossary-term-name">
+            Another term
+          </div>
+          <div class="glossary-term-definition">
+            <p>Glossary terms need a term, slug, and definition attribute.  The term attribute will appear above the definition. The slug is a unique identifier for the term. It should be lowercase, with no special characters or punctuation, and any spaces replaced with a dash.</p>
+
+          </div>
+        </li>
+      
+        <li class="glossary-term" hidden-term="false" id="yet-another-term">
+          <div class="glossary-term-name">
+            Yet another term
+          </div>
+          <div class="glossary-term-definition">
+            <p>Want to link to a specific glossary term in your text, like <a href="#glossary" define="yet-another-term">this one here</a>? You will need to edit your markdown like so: </p>
+
+<pre><code>[this one here](#glossary){:define="yet-another-term"}
+</code></pre>
+
+<p>Just place the text you want linked in the brackets and the correct slug within the quotes.</p>
+
+          </div>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+<script>
+  var glossary_data = [{"term":"A glossary term","slug":"a-glossary-term","definition":"To add glossary terms, edit the glossary.yaml file in the _data folder."},{"term":"Another term","slug":"another-glossary-term","definition":"Glossary terms need a term, slug, and definition attribute.  The term attribute will appear above the definition. The slug is a unique identifier for the term. It should be lowercase, with no special characters or punctuation, and any spaces replaced with a dash.\n"},{"term":"Yet another term","slug":"yet-another-term","definition":"Want to link to a specific glossary term in your text, like [this one here](#glossary){:define=\"yet-another-term\"}? You will need to edit your markdown like so: \n\n    [this one here](#glossary){:define=\"yet-another-term\"}\n\nJust place the text you want linked in the brackets and the correct slug within the quotes."}]
+</script>
+
+      <footer role="contentinfo">
+	<div class="wrap">
+
+	<p>If you have any ideas, data, or interest in helping us grow our dashboard, email us <a href="mailto:dmped.econintel@dc.gov">here</a>.</p>
+    <p>This project is maintained by <a href="http://dmped.dc.gov">Office of the Deputy Mayor for Planning and Economic Development</a> with support from <a href="http://octo.dc.gov">OCTO</a>.</p>
+    
+    <p>The <a href="https://github.com/DCgov/guides-template/">DCgov Guides theme</a> is based on <a href="https://github.com/cfpb/docter/">DOCter</a> from <a href="http://cfpb.github.io/">CFPB</a> and the <a href="https://github.com/18F/guides-template/">18F Guides theme</a>.</p>
+    <p><a href="https://github.com/DCgov/econintel-cotw/edit/gh-pages/">Edit this page</a> or <a href="https://github.com/DCgov/econintel-cotw/issues">file an issue</a> on GitHub.</p>
+  </div><!--/.wrap -->
+</footer>
+
+
+    </div> <!-- /.container -->
+    </body>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/econintel-cotw/assets/js/glossary.js"></script>
+<!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-91483925-1', 'auto');
+
+    // anonymize user IPs
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+  </script>
+
+
+</html>
